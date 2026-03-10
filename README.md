@@ -3,6 +3,8 @@
 A small-scale speech codec language modeling with an OLMo-Hybrid / Gated
 DeltaNet-style decoder.
 
+If you have the compute, try to train it to the full 12k steps and lmk the results haha...
+
 This repo contains the code, sampling pipeline, and report source for a
 21.9M-parameter pilot trained on LJ Speech tokenized with EnCodec 24 kHz. The
 goal was primarily to test whether a small hybrid recurrent-attention backbone can
