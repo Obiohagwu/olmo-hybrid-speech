@@ -1,11 +1,11 @@
 # OLMo-Hybrid Speech
 
-Small-scale speech codec language modeling with an OLMo-Hybrid / Gated
+A small-scale speech codec language modeling with an OLMo-Hybrid / Gated
 DeltaNet-style decoder.
 
 This repo contains the code, sampling pipeline, and report source for a
 21.9M-parameter pilot trained on LJ Speech tokenized with EnCodec 24 kHz. The
-goal was narrow: test whether a small hybrid recurrent-attention backbone can
+goal was primarily to test whether a small hybrid recurrent-attention backbone can
 learn enough speech-token structure to generate clearly speech-like audio
 without text conditioning.
 
@@ -15,7 +15,7 @@ The best preserved A100 checkpoint in the pilot reached:
 - `perplexity = 72.58`
 - `step = 1800`
 
-This is a pilot result, not a benchmark claim.
+To be clear though, this is a more so a pilot result than an actual benchmark claim.
 
 ## Project page
 
@@ -30,12 +30,12 @@ This is a pilot result, not a benchmark claim.
 - `config.py`: presets and config plumbing
 - `paper/`: LaTeX and markdown report sources
 
-This public repo intentionally excludes:
+This public repo intentionally excludes (for now):
 
 - raw audio datasets
 - tokenized data
 - training runs and checkpoints
-- local scratch/sample directories
+- local scratch/sample directories 
 
 ## Model summary
 
@@ -117,14 +117,14 @@ The technical report sources are in:
 
 ## Status
 
-What this repo supports today:
+Currently:
 
 - unconditional speech codec LM training
 - OLMo-Hybrid / Gated DeltaNet backbone
 - CUDA-first A100 training path
 - local delayed-space speech sampling
 
-What it does not yet claim:
+Not yet claiming these but upon more experimentation, goals are:
 
 - superiority over a matched transformer baseline
 - text-conditioned TTS
