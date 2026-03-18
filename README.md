@@ -11,7 +11,7 @@ goal was primarily to test whether a small hybrid recurrent-attention backbone c
 learn enough speech-token structure to generate clearly speech-like audio
 without text conditioning.
 
-The best preserved A100 checkpoint in the pilot reached:
+The best preserved A100 checkpoint in the pilot (12k ful run finished 03-13-2026) reached:
 
 - `EMA val_loss = 4.2847`
 - `perplexity = 72.58`
