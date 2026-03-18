@@ -112,10 +112,9 @@ python3 scripts/sample_speech.py \
 
 ## Report
 
-The technical report sources are in:
+The technical report:
 
-- `paper/main.tex`
-- `paper/references.bib`
+[Technical Report](https://obiohagwu.github.io/obiohagwu/images/olmo-hybrid-speech/final_report.pdf)
 
 ## Status
 
