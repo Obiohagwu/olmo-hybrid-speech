@@ -22,7 +22,7 @@ To be clear though, this is a more so a pilot result than an actual benchmark cl
 ## Project page
 
 - Samples and run summary:
-  - https://research.nani-inc.com/2026/03/09/olmo-hybrid-ljspeech-a100-pilot.html
+  - [https://research.nani-inc.com/2026/03/09/olmo-hybrid-ljspeech-a100-pilot.html](https://obiohagwu.github.io/obiohagwu/2026/03/14/Completed-12k-Run-Early-Speech-Emergence-in-a-21.9M-OLMo-Hybrid-Speech-LM.html)
 
 ## What is in this repo
 
